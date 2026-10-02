@@ -51,3 +51,8 @@ footer a { color: var(--muted); margin-right: 16px; }
   h1 { font-size: 30px; }
   nav a { margin-left: 14px; }
 }
+.product { display: block; text-decoration: none; color: inherit; }
+a.product:hover { border-color: var(--accent); }
+.tag { color: var(--accent) !important; font-size: 13px !important; font-weight: 600; margin: 2px 0 10px !important; }
+.product p + p { margin-top: 0; }
+.more { display: inline-block; margin-top: 12px; color: var(--accent); font-size: 14px; font-weight: 600; }
